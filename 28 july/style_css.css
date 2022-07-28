@@ -1,0 +1,17 @@
+body{
+    background: linear-gradient(to bottom,pink,cyan);
+    background-attachment: fixed;
+    font-size: 2em;
+    text-align: justify;
+    font-family: "lato", sans-serif;
+}
+#title{
+    color: black;
+    font-family: "sarabun", sans-serif;
+}
+#style_div{
+    height: 400px;
+    width: 70vm;
+    background: radial-gradient(circle,red 20%,blue 40%,green 55%);
+    border: 10px solid rgb(28,28,50);
+}
