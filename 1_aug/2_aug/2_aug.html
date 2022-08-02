@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myFn() {
+            //let n1=document.getElementByID("n1").
+            //alert(n1);
+            let a=document.getElementById("n1").value;
+
+            if(a==null||a==""||a==" "){
+                alert("text box must have value.");
+            }
+            else{
+                document.getElementById("p1").innerHTML=a;
+            }
+        }
+    </script>
+</head>
+<body>
+    <p id="p1"></p>
+    <input type="text" name="n1" id="n1">
+    <button onclick="myFn()">submit</button>
+</body>
+</html>
