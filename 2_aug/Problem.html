@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function myfun(){
+            let x=document.getElementById("TM").value;
+            let y=document.getElementById("TB").value;
+            x=Number(x);
+            y=Number(y);
+            if(x>y){
+                alert("Balls must be greater than members")
+            }
+            else{
+                let em=y%x;
+                let r=y-em;
+                r=r/x;
+                document.getElementById("p1").innerHTML="each member get :"+r+"<br> remaining balls are: "+em;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Enter the no. of team members :</h1>
+    <input text="number" name="TM" id="TM"><br>
+    <h1>Enter the no. of balls :</h1>
+    <input text="number" name="TB" id="TB"><br>
+    <button onclick="myfun()">Submit</button>
+    <p id="p1"></p>
+</body>
+</html>
