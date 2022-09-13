@@ -1,17 +1,13 @@
 import React from 'react';
-import './App.css';
-import Test from './component/Test';
-import Abcd from './component/Abcd';
-
-
-const App= ()=> {
+import Form from './Form';
+import Test from './Test'; 
+const App=()=> {
   return (
-    <div >
-      <Test/>
-      <Abcd/>
-      <Abcd/>
-    </div>
-  );
+    <>
+    
+    <Test/>
+    </>
+  )
 }
 
 export default App;
