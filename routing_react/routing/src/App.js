@@ -1,18 +1,11 @@
-import React from 'react';
-// import Form from './Form';
-// import Test from './Test'; 
-// import Home from './Home2';
-import Form from './Form3';
-import './App.css';
-const App=()=> {
+import React from 'react'
+
+function () {
   return (
-    <div className="App">
-      {/* <Home></Home> */}
-      <Form></Form>
-      <h1>Hello World</h1>
-      <h2>H2 heading</h2>
+    <div>
+      <h1>This is ap component</h1>
     </div>
   )
 }
 
-export default App;
+export default 

@@ -23,15 +23,11 @@ const Output=(val2)=>{
         val1=val1.toFixed(2);
         document.getElementById("output").innerHTML="The weight of person on Venus is "+val1+"Kg";
     }   
-    else  if(val2=="Sun"){
-        let val1=val*28;
-        val1=val1.toFixed(2);
-        document.getElementById("output").innerHTML="The weight of person on Sun is "+val1+"Kg";
-    } 
+     
     else  if(val2=="Jupiter"){
         let val1=val*2.54;
         val1=val1.toFixed(2);
-        document.getElementById("output").innerHTML="The weight of person on Jupiter is "+val1+"Kg";
+        document.getElementById("output").innerHTML="The mileage of Jupiter is 50-62 km/ltr";
     }
     else  if(val2=="Uranus"){
         let val1=val*.89;
