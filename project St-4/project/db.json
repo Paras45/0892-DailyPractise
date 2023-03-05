@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "name": "sdfa",
+      "username": "dsgfs",
+      "email": "dsvsgdd@dxvg",
+      "password": "etrtyr",
+      "id": 1
+    },
+    {
+      "name": "zsdgfea",
+      "username": "A@ewg",
+      "email": "xfdbfdrf@th",
+      "password": "ik",
+      "id": 2
+    },
+    {
+      "name": "sdvsd",
+      "username": "cxdvd",
+      "email": "asfa@sdvs",
+      "password": "dfg",
+      "id": 3
+    },
+    {
+      "name": "szcdvb",
+      "username": "xzcfdgbh",
+      "email": "xsdfgh@gmail.com",
+      "password": "dsfgh",
+      "image": "C:\\fakepath\\jupiter.jpg",
+      "id": 4
+    },
+    {
+      "name": "montu",
+      "username": "hghhgh",
+      "email": "monytu@hgfyu.com",
+      "password": "jhgvjhgvkjhv",
+      "image": "C:\\fakepath\\mars.jpg",
+      "id": 5
+    },
+    {
+      "name": "mont",
+      "username": "dfghjk",
+      "email": "dfg@g.com",
+      "password": "sdfgh",
+      "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "id": 6
+    },
+    {
+      "name": "fgsfhdfjkghyl",
+      "username": "dsfghjklfdfg",
+      "email": "parasramola8@gmail.com",
+      "password": "435678",
+      "image": "D:/0892-DailyPractise/project St-3/jupiter.jpg",
+      "id": 7
+    }
+  ]
+}

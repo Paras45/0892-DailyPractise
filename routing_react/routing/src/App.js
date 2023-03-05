@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {component} from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Form from './components/Form.js'
 
-function () {
+function App() {
   return (
-    <div>
-      <h1>This is ap component</h1>
+    <Router>
+  <div>
+      <Route exact path="/" component = {Home}/>
+      <Route exact path="/About" component={About}/>
+      <Form/>
     </div>
+    </Router>
   )
 }
 
-export default 
+export default App;  
