@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png"/>
+    <title>Your weight on other planets | Montu garg</title>
+</head>
+
+
+<link rel="stylesheet" href="Project St-3.css"/>
+<body id="body" >
+    <div id="main" >
+        <div id="display">
+            <div id="main_heading"><h1>Your Weight on other Planets</h1></div>
+            <div id="header"> 
+                <label id="label">Enter your Weight here -></label>
+                <input type="number" placeholder="Search" name="search" id="search">
+                <div id="link"><a href="#" id="history" onclick="Hidden()">History</a></div>
+            </div>
+            <div id="heading">
+                <h1>Select Celestial Body</h1>
+            </div>
+            <div id="content">
+                <div class="planets" style="background-image: url('sun.jpg');" onclick="Output('Sun');"><span >Sun</span></div>
+                <div class="planets" style="background-image: url('moon.jpg');" onclick="Output('Moon');"><span >Moon</span></div>
+                <div class="planets" style="background-image: url('mercury.jpg');" onclick="Output('Mercury');"><span >Mercury</span></div>
+                <div class="planets" style="background-image: url('venus.jpg');" onclick="Output('Venus');"><span >Venus</span></div>
+                <div class="planets" style="background-image: url('mars.jpg');" onclick="Output('Mars');"><span >Mars</span></div>
+                <div class="planets" style="background-image: url('Jupiter.jpg');" onclick="Output('Jupiter');"><span >Jupiter</span></div>
+                <div class="planets" style="background-image: url('saturn.jpg');" onclick="Output('Saturn');"><span >Saturn</span></div>
+                <div class="planets" style="background-image: url('uranus.jpg');" onclick="Output('Uranus');"><span >Uranus</span></div>
+                <div class="planets" style="background-image: url('Neptune.jpg');" onclick="Output('Neptune');"><span >Neptune</span></div>
+                <div class="planets" style="background-image: url('pluto.jpg');" onclick="Output('Pluto');"><span >Pluto</span></div>
+            </div>
+            
+        </div>
+        <div id="hidden" >
+            <div id="close" onclick="Close()" >Close</div>
+            <div id="history_l"><a href="#" id="history_d"></a></div>
+                
+        </div>
+        <div id="para">
+
+            <div id="close" style="margin-top:2%" onclick="Close_p()" >Close</div>
+            <div id="output"><p></p></div>    
+        </div>
+        
+    </div>
+    <div id="info">
+            <h3>Mass and Weight</h3>
+            <p> Before we get into the subject of gravity and how it acts, it's important to understand the difference between weight and mass.<br>
+                We often use the terms "mass" and "weight" interchangeably in our daily speech, but to an astronomer or a physicist they are 
+                completely different things. The mass of a body is a measure of how much matter it contains. An object with mass has a quality 
+                called inertia. If you shake an object like a stone in your hand, you would notice that it takes a push to get it moving, and 
+                another push to stop it again. If the stone is at rest, it wants to remain at rest. Once you've got it moving, it wants to stay
+                 moving. This quality or "sluggishness" of matter is its inertia. Mass is a measure of how much inertia an object displays.<br/>                
+                Weight is an entirely different thing. Every object in the universe with mass attracts every other object with mass. The amount 
+                of attraction depends on the size of the masses and how far apart they are. For everyday-sized objects, this gravitational pull 
+                is vanishingly small, but the pull between a very large object, like the Earth, and another object, like you, can be easily 
+                measured. How? All you have to do is stand on a scale! Scales measure the force of attraction between you and the Earth. 
+                This force of attraction between you and the Earth (or any other planet) is called your weight.<br/>
+                If you are in a spaceship far between the stars and you put a scale underneath you, the scale would read zero.
+                Your weight is zero. You are weightless. There is an anvil floating next to you. It's also weightless. Are you or
+                the anvil mass-less? Absolutely not. If you grabbed the anvil and tried to shake it, you would have to push it to get
+                it going and pull it to get it to stop. It still has inertia, and hence mass, yet it has no weight. See the
+                difference?
+            </p>
+        </div>
+        <div id="footer">
+
+            <h2>Designed by Himanshu Sharma, 2010990296, G-11</h2>
+            
+        </div>
+    <script src="Project St-3.JS">
+    
+    </script>
+</body>
+</html>

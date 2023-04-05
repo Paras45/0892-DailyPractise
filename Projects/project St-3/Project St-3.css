@@ -1,0 +1,261 @@
+
+#body{
+    background-image:url('earth.jpg') ;
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+    margin-top: 30px ;
+}
+#search{
+    position: relative;
+    border-radius: 10px;
+    padding:10px;
+    
+    width: 40%;
+    height: 20px;
+    font-size: 20px;
+}
+#history{
+    text-decoration: underline;
+    color:white;
+}
+#history:hover{
+    font-size: 22px;
+    transition-duration: 200ms;
+    
+}
+#link{
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+#content{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.planets{
+
+   
+    background-size:cover ;
+    background-image: url('earth.jpg');
+    width:200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 30px rgb(228, 255, 248);
+    margin: 45px;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: planet;
+    animation-duration: 5s;
+}
+@keyframes planet {
+    from {transform:translateX(700%) ;}
+    to{transform: translateX(0%);}
+  }
+.planets:hover{
+    transform: translateY(-15px);
+    transition: all ease 0.2s;
+}
+#main{
+    display:flex;
+
+}
+#close{
+    width: auto;
+    height: 20px;
+    color:black;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    margin-top: 6%;
+    margin-right: 2%;
+   float: right;
+    
+    border-radius: 5px;
+}
+#hidden #close{
+    color:white
+}
+#close:hover{
+    background-color: rgb(252, 3, 3);
+    color: white;
+    
+}
+
+
+#hidden{
+    
+    margin-top: -2%;
+    width:400px;
+    height:60em;
+    display: none;
+    position:fixed;
+    right:0;
+    
+    background-image:linear-gradient( 45deg,rgb(92, 219, 187),rgba(1, 14, 41, 0.947)75% );
+}
+span{
+    opacity: .8;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    background-color: grey;
+}
+
+#para{
+    display:none;
+    
+   text-align: center;
+    margin-top:20% ;
+    width:400px;
+    position:fixed;
+    right:39%;
+    height:200px;
+    font-weight: bold;
+    background-image:linear-gradient(to right,rgb(157, 151, 246),rgba(247, 170, 170, 0.947) );
+    border-radius: 10px;
+}
+#output{
+    margin-top: 10%;
+    border-top: 2px solid black;
+}
+
+#label{
+    color:rgb(152, 249, 234);
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 20px;
+    margin-left: 17%;
+}
+#heading{
+    color:rgb(152, 249, 234);
+    text-shadow: 2px 2px 30px white;
+    text-align: center;
+    font-family: cursive;
+    
+}
+#main_heading{
+    margin-top: -2%;
+    background-image:linear-gradient(to right,rgba(223, 68, 68, 0.947) ,rgb(90, 80, 239));
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    opacity: 0.9;
+    animation: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {background-image:linear-gradient(to right,rgba(223, 68, 68, 0.947) ,rgb(90, 80, 239))}
+    25%  {background-image:linear-gradient(to right, rgba(222, 122, 50, 0.89),rgb(40, 78, 206));}
+    50%  {background-image:linear-gradient(to right,rgb(121, 200, 56) ,rgb(68, 168, 208));}
+    75%  {background-image:linear-gradient(to right,rgb(0, 102, 255) ,rgb(206, 230, 51));}
+    100% {background-image:linear-gradient(to right,rgb(234, 114, 29) ,rgb(132, 0, 255));}
+  }
+#info h3{
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+#info p{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#footer{
+    background-color: grey;
+    text-align: center;
+    font-family: cursive;
+    opacity: 0.8;
+}
+#history_l{
+    margin-top: 20%;
+    margin-left: 10%;
+    border-top: 2px solid white;
+
+}
+
+#history_l a{
+    text-decoration: none;
+    color: white;
+    
+    font-weight: bold;
+}
+@media only screen and (max-width:1200px){
+    .planets{
+         margin:30px;
+         margin-top: 10%;
+        
+    }
+    #para{
+        right:25%;
+        
+    }
+    #main_heading{
+        font-size: 15px;
+    }
+    #search{
+        padding: 5px;
+
+    }
+    #label{
+        margin-left: auto;
+    }
+    
+}
+@media only screen and (max-width:700px){
+    .planets{
+         margin:15px;
+         margin-top: 10%;
+        
+    }
+    #para{
+        right:10%;
+        
+    }
+    #search{
+        width:70%;
+        padding: 5px;
+        
+
+    }
+    #search::placeholder{
+        color:rgb(148, 148, 247);
+    }
+    #label{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:450px){
+    .planets{
+         margin:auto;
+         margin-top: 10%;
+        
+    }
+    #main_heading{
+        font-size: 10px;
+    }
+    #para{
+        margin-top: 100%;
+        right:auto;
+        width: 97%;
+        height:120;
+    }
+    #hidden{
+        float: none;
+        height: 50%;
+        overflow:hidden;
+        width:420px;
+    }
+   
+}
